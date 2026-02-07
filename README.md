@@ -24,14 +24,18 @@ This project is built to practice basic DOM manipulation and event handling in J
 4. The task is displayed inside the task list section.
 
 ## Folder Structure
-index.html
-style.css
-script.js
+- index.html
+- style.css
+- script.js
 
 ## Future Improvements
 - Delete task option
 - Mark task as completed
 - Local storage support
+- 
+- ## Live Demo
+Open the deployed project here:  
+https://pragati-kashyap01.github.io/Todo-List-App/
 
 ## Author
 Pragati Kashyap
