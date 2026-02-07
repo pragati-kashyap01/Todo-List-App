@@ -1,0 +1,62 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+
+}
+
+.container{
+    
+    background-color: rgb(241, 192, 127);
+    border: 2px solid rgba(74, 33, 14, 0.721);
+    text-align: center;
+    width: 400px;
+    padding: 55px;
+    /* height: 150px; */
+
+}
+
+.titleText{
+    color: rgb(149, 73, 43);
+    font-family: serif;
+}
+.label{
+    background-color: rgb(240, 227, 210);
+    border-radius: 20px;
+    border-color: rgb(179, 77, 18);
+}
+.buttons button{
+    border-radius: 10px;
+    margin: 5px;
+    font-family: serif;
+    font-size: small;
+    padding: 2px 6px;
+cursor: pointer;
+background-color: beige;  
+color: rgb(116, 62, 40);
+border-color: rgb(133, 54, 30);  
+}
+
+.buttons button:hover{
+transform: scale(1.03);
+}
+
+#taskList{
+    max-height: 150px;
+    overflow-y: auto;
+    margin-top: 15px;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#taskList p{
+    background-color: #f0e1cd;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+}
